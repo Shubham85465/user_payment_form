@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+    <h2 class="second_heading">Payment details *</h2>
+    <form action="">
+
+<label for="card_type">Card Type : * <img src="images/visa.png" alt="card"></label>
+<select name="card_type" id="card_type">
+    <option value="">--select card_type--</option>
+    <option value="visa">visa</option>
+    <option value="rupay">rupay</option>
+    <option value="master card">master card</option>
+</select><br>
+<br>
+
+<label for="card_number">Card Number :* </label>
+<input type="number" name="card_number" id="card_number" placeholder="1111-2222-3333"><br>
+<br>
+
+<label for="expire_date">Expire Date : *</label>
+<input type="date" name="expire_date" id="expire_date" placeholder="29/2015"><br>
+<br>
+
+<label for="cvv">Cvv : * </label>
+<input type="password" name="cvv" id="cvv" placeholder="/0000"><br>
+<br>
+
+<a href="index.html"><input type="button" value="back"></a>
+<input type="submit" value="pay now">
+
+</form>
+</div>
+</body>
+</html>
